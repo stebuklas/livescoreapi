@@ -173,7 +173,7 @@ class Match {
      */
     public function getTime()
     {
-        return Score::AwayPoints($this->getScore());
+        return $this->time;
     }
 
     /**
